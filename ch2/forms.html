@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+
+    <style>
+        *, ::after , ::before {
+            box-sizing: border-box;
+            padding: 0;
+            /* margin: 0; */
+        }
+
+        .row {
+            margin-bottom: 10px;
+        }
+
+        label {
+            display: inline-block;
+            width: 80px;
+            
+        }
+
+        .input-item {
+            width: 200px;
+            height: 25px;
+            border-radius: 5px;
+            border: 1px solid black;
+            padding-left: 5px;
+        }
+
+        .input-item:focus {
+            outline: none;
+        }
+
+        [type='submit'] {
+            margin-left: 85px;
+            margin-top: 10px;
+            padding: 10px 75px;
+            border: 1px solid black;
+            border-radius: 20px;
+            color: white;
+            background-color: blue;
+        }
+
+        [type='submit']:hover {
+            background: rgb(160, 160, 255);
+            color: blue;
+            transition:all ease-in-out 1s;
+            cursor: pointer;
+            border-radius: 0px 100px 0px 100px;
+        }
+        [type='submit']:not(:hover) {
+            transition:all ease-in-out 1s;
+        }
+
+        [type='submit']:active {
+            
+            transition:all ease-in-out 1s;
+            
+        }
+
+
+        h1::after {
+            content: '\2764\FE0F';
+            margin-left: 10px;
+        }
+
+        
+
+
+    </style>
+</head>
+<body>
+
+    <h1>User Registration</h1>
+    <form action="">
+        <div class="row">
+            <label for="username">Username</label>
+            <input class="input-item" type="text" name="" id="username" placeholder="Insert username">
+        </div>
+
+        <div class="row">
+            <label for="password">Password</label>
+            <input class="input-item" type="password" name="" id="password" placeholder="Insert password">
+        </div>
+
+        <div class="row">
+            <label for="email">E-mail</label>
+            <input class="input-item" type="email" name="" id="email" placeholder="Insert email">
+        </div>
+
+        <div>
+            <input type="submit" value="Sumbit">
+        </div>
+    </form>
+    
+</body>
+</html>
