@@ -1,7 +1,3 @@
-.img-logo {
-    width: 413px;
-}
-
 .container {
     border: 2px solid black;
     width: 90%;
@@ -9,7 +5,64 @@
     margin-right: auto;
 }
 
-.nav {
-    display: inline-block;
+.aueb-img {
+    width: 400px;
+    height: auto;
+    vertical-align: middle;
 }
 
+.nav {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav li:first-child {
+    margin-left: 25px;
+}
+
+.nav a {
+    text-decoration: none;
+    background-color: aqua;
+    padding: 15px 5px;
+    font-size: 1.2rem;
+    color: black;
+}
+
+.nav a:hover {
+    color: green;
+}
+
+.mt-5 {
+    margin-top: 5px;
+}
+
+nav {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav li:first-child {
+    margin-left: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: aqua;
+    padding: 15px 5px;
+    font-size: 1.2rem;
+    color: black;
+}
+
+nav a:hover {
+    color: green;
+}
