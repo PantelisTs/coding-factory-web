@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    width: 90%;
+    height: 500px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    /* Οριζόντια στοίχιση */
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    
+    /* Κάθετη στοίχιση */
+    align-items: start;
+    align-items: center;
+    align-items: end;
+    /* align-items: stretch; */
+}
+
+div[class^="box"] {
+    width: 200px;
+    height: 200px;  /*το αφαιρούμε για να πάιζει το aling-items: strech' */
+    margin: 0 5px;
+    background-color: lightblue;
+    border: 1px solid black;
+}
